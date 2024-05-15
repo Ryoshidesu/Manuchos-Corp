@@ -1,0 +1,32 @@
+{% extends './base.html' %}
+
+{% block title %} Instalacion {% endblock %}
+
+{% block body %}
+<h1>Bienvenido a la seccion de la instalacion de Flask</h1>
+<div>
+    <h2>Pasos a seguir</h2>
+    <ul>
+   <h3> <li>Instalar python la version mas reciente junto con Visual studio code </li>
+    <li>Al momento de istalar el python hay que activar las 2 opciones que se encuentran en la parte inferior y darle en install now.</li>
+    
+    <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/pyt.png')}}" alt="" width="500"></a><br>
+    
+    <br><li>Despues de realizar la descargar iniciamos Visual Studio Code creando una carpeta de trabajo.</li>
+    <li>Creamos un archivo .py en nuestro caso index.py.</li>
+    
+    <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/ind.png')}}" alt="" width="500"></a><br>
+    
+    <br><li>Iniciamos una nueva terminal y escribe el siguente comando.</li>
+    <li>El comando es el siguiente: pip install Flask.</li>
+    
+    <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/flask.png')}}" alt="" width="500"></a><br>
+    
+    <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/flas.png')}}" alt="" width="500"></a><br>
+    <br>
+   </h3>
+
+    </ul>
+    </div>
+
+{% endblock %} 

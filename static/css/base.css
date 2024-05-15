@@ -1,0 +1,19 @@
+
+th, td{
+    text-align: right;
+    vertical-align: middle;
+} 
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+}
+
+
+
+.redondo{
+    border-radius: 25px;
+  
+  }

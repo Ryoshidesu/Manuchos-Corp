@@ -1,0 +1,23 @@
+{% extends './base.html' %}
+
+{% block title %} Tutorial {% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col-sm-6 redondo mb-3 mb-sm-0">
+      <div class="card redondo">
+        <div class="card-body redondo">
+          <h3 class="card-title">Instalacion Flask</h3>
+          <p class="card-text">En este apartado podras encontrar un tutorial de como instalar Flask</p>
+          <a href="/instalacion" class="btn btn-primary">Ir a la Instalacion</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 redondo">
+      <div class="card redondo">
+        <div class="card-body redondo">
+          <img src="{{url_for('static', filename='img/html.png')}}" width="500">
+        </div>
+      </div>
+    </div>
+{%endblock%}

@@ -1,0 +1,17 @@
+{% extends './base.html' %}
+
+{% block title %} Tutorial {% endblock %}
+
+{% block body %}
+<h1>Primeros Pasos</h1>
+
+<h2>Lo primero que tienes que hacer es importar Flask colocando:</h2>
+   <h3> <li>from flask import Flask</li> </h3>
+   <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/imp.png')}}" alt="" width="500"></a>
+   <h2> <br> El siguiente paso es crear una aplicacion con Flask usando la variable "app" que va a representar nuestra aplicacion de flask.</h2>
+   <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/app.png')}}" alt="" width="500"></a>
+   <h2><br> Acontinuacion se creara una carpeta llamada "templates" que va a servir para hacer los diseños de las distintas secciones del sitio web, acontinuacion creamos un archivo "html" en nuestro caso "index.html" que sera lo que veremos de la pagina. </h2>
+<br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/tem.png')}}" alt="" width="500"></a>
+   <h2><br> En el archivo "index.html" podemos utilizar la estructura base de html ingresando el comando "html : 5" el cual genera lo basico de html como por ejemplo el cuerpo, titulo y cabeza, en la seccion de "body" puedes escribir cualquier cosa con el comando "h1" utilizando los simbolos "< >".</h2>
+   <br><a class="navbar-brand" ><img src="{{ url_for('static', filename='img/html.png')}}" alt="" width="500"></a>
+{% endblock %} 
